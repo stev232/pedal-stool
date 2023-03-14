@@ -1,3 +1,82 @@
-node_modules
+######################
+# Node
+######################
+/node/
+node_tmp/
+node_modules/
+npm-debug.log.*
+/.awcache/*
+/.cache-loader/*
+​
 .env
+​
+######################
+# SASS
+######################
+.sass-cache/
+​
+######################
+# IntelliJ
+######################
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+classes/
+out/
+​
+######################
+# Visual Studio Code
+######################
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+​
+######################
+# Windows
+######################
+# Windows image file caches
+Thumbs.db
+​
+# Folder config file
+Desktop.ini
+​
+######################
+# Mac OSX
+######################
 .DS_Store
+.svn
+​
+# Thumbnails
+._*
+​
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+​
+######################
+# Directories
+######################
+/bin/
+/deploy/
+​
+######################
+# Logs
+######################
+*.log*
+​
+######################
+# ESLint
+######################
+.eslintcache
+​
+######################
+# Code coverage
+######################
+/coverage/
+/.nyc_output/
