@@ -6,7 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "seed": "node seeds/seed.js"
+    "seed": "node seeds/seed.js",
+    "mysql": "mysql -u root -p -h 127.0.0.1 -P 3306",
+      "db:down": "docker-compose -f mysql.yml down -v",
+      "db:stop": "docker-compose -f mysql.yml stop -v",
+      "db:start": "docker-compose -f mysql.yml start -v",
+      "db:up": "docker-compose -f mysql.yml up -d",
+      "db:reset": "npm run db:down && npm run db:up"
   },
   "keywords": [],
   "author": "",
@@ -21,4 +27,5 @@
     "mysql2": "^2.2.5",
     "sequelize": "^6.3.5"
   }
+  
 }
