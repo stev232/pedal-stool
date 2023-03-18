@@ -1,0 +1,13 @@
+<div class="row align-center mb-5">
+  <div class="col-md-6">
+      <h2>{{blogList.title}}</h2>
+  </div>
+  <div class="col-md-6">
+    <p>{{blogList.content}}</p>
+  </div>
+  {{#each blogList.comments as |comment| }}
+  <div class="col-md-6">
+    <p>{{ comment.content }}</p>
+  </div>
+  {{/each}}
+</div>
