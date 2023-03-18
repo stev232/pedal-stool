@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: myFirstFont;
-    src: url(Acme-Regular.ttf);
+    src: url(/js/style/Acme-Regular.ttf);
  }
 
 .headerContainer {
