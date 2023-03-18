@@ -6,6 +6,9 @@
     font-family: myFirstFont;
     src: url(/js/style/Acme-Regular.ttf);
  }
+ * {
+    font-family:sans-serif, Georgia, Times, 'Times New Roman', serif;
+}
 
 .headerContainer {
     background-color: rgb(0, 46, 93);
@@ -90,13 +93,20 @@
 .divider {
     color: rb(255, 255, 255);
     height: 2px;
+    size: 2000px;
+}
+
+.mainSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .blogMain {
     padding-top: 15px;
-    padding-left: 150px;
+    padding-left: 125px;
     background-size: 2000px;
-    background-image: linear-gradient(rgb(85, 170, 255), rgb(0, 46, 93));
+    background-image: linear-gradient(rgb(14, 184, 223), rgb(0, 46, 93));
     display: flex;
     align-items: right;
     flex-direction: column;
@@ -116,25 +126,46 @@
     height: 180px;
     background-color: white;
     padding: 10px;
-    width: 1000px;
+    width: 1300px;
+    border-radius: 15px;
 }
 
 .container-md2 {
     height: 180px;
     background-color: white;
     padding: 10px;
-    width: 1000px;
+    width: 1300px;
+    border-radius: 15px;
 }
 
 .container-md3 {
     height: 180px;
     background-color: white;
     padding: 10px;
-    width: 1000px;
+    width: 1300px;
+    border-radius: 15px;
 }
 
-.voteCounterContainer {
+.voteCounterContainer1 {
+    background-image: linear-gradient(rgb(14, 184, 223), rgb(0, 46, 93));
+    width: 400px;
+    height: 200px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.votes {
     background-color: white;
+    width: 100px;
+    height: 180px;
+}
+
+.voteCounterContainer2 {
+    background-image: linear-gradient(rgb(14, 184, 223), rgb(0, 46, 93));
     width: 300px;
     height: 200px;
+    height: 800px;
+    padding-left: 10px;
 }
