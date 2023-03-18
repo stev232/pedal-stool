@@ -5,22 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>User Registry</title>
-  <link rel="stylesheet" href="/css/jass.css">
-  <script src ="handlebars-v4.0.2.js"></script>
 </head>
 
 <body>
   <header class="display-flex justify-space-between align-center p-2">
-    {{#if logged_in}}
-       <h1> Welcome, {{username}}! </h1>
-      <p>You are currently logged in.</p>
-    <nav>
-      <button class="btn" id="logout">logout</button>
-    </nav>
-    {{else}}
-      <h1>Welcome!</h1>
-      <p>Please log in to access all features.</p>
-    {{/if}}
+    <h1>
+      User Registry
+    </h1>
   </header>
   <main class="container container-fluid mt-5">
     {{{ body }}}
@@ -28,10 +19,6 @@
   <footer>
       
   </footer>
-
-  {{#if logged_in}}
-  <script src="/js/logout.js"></script>
-  {{/if}}
 </body>
 
 </html>

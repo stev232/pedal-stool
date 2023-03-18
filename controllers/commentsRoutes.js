@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Comments } = require('../../models');
+const { Comments } = require('../models');
 
 router.get('/:id', async (req, res) => {
   try {
