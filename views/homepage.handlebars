@@ -1,12 +1,12 @@
 {{#each blogList as |blog| }}
-<div class="row align-center mb-5">
-  <a href="/blogPost/{{id}}">
-    <div class="col-md-6">
-      <h2>{{blog.title}}</h2>
-    </div>
-  </a>
-  <div class="col-md-6">
-    <p>{{blog.content}}</p>
-  </div>
+<div class="container-md1">
+  <button type="button" style="width: 22%" class="btn btn-info">USER</button>
+  <a href="/blogPost/{{id}}"> <button type="button" style="width: 25%" class="btn btn-info">{{blog.title}}</button> </a>
+  <button type="button" style="width: 11%" class="btn btn-success">Upvotes: </button>
+  <button type="button" style="border-radius: 50%;" class="btn btn-success">⬆</button>
+  <button type="button" style="width: 11%" class="btn btn-danger">Downvotes: </button>
+  <button type="button" style="border-radius: 50%;" class="btn btn-danger">⬇</button>
+  <button type="button" style="width: 20%" class="btn btn-warning">Add Comment</button>
+  <p>{{blog.content}}</p>
 </div>
 {{/each }}
