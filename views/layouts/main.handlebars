@@ -21,35 +21,39 @@
   </style>
 </head>
 
-<body>
-  <div class="headerContainer">
-    <div class="dashboardContainer">
-      <button type="button" style='width:125px' class="btn btn-outline-light">Home</button>
-
-      <button type="button" style='width:125px' class="btn btn-outline-light">Dashboard</button>
-      <!-- IF logged in then "Logout" button will appear-->
-      <!-- IF logged out then "Login" button will appear-->
-      <button type="button" style='width:125px' class="btn btn-outline-light">Login</button>
-    </div>
-    <div class="titleContainer">
-      <div>Pedal-Stool</div>
-    </div>
-    <div class="createpostsContainer">
-      <div id="zipDiv">
-        <button type="button" class="btn btn-outline-warning">Create New Post</button>
+<body style="background-color: rgb(22, 199, 238">
+  <div
+    style="padding-left: 2%; padding: 1%; width: 100%; background-color: rgb(0, 46, 93); height:15%; display:flex; align-items: center; justify-content:space-evenly;"
+    class="headerContainer">
+    <div style="width:95%;  padding-left:2% ; background-color:rgb(0, 46, 93); display:flex; align-items: center; justify-content:space-evenly"
+      class="dashboardContainer">
+      <div
+        style="background-color:  rgb(0, 46, 93); width:50%; display:flex; align-items: center; justify-content:space-evenly; padding-right:10px">
+        <button type="button" style='width: 40%; height:10%' class="btn btn-outline-info">Home</button>
+        <button type="button" style='width: 40%; height:10%' class="btn btn-outline-info">Dashboard</button>
+        <button type="button" style='width: 40%; height:10%' class="btn btn-outline-info">Login</button>
+      </div>
+      <div
+        style="width:70%; height:100% display:left; background-color:rgb(0, 46, 93); display:flex; align-items: center; justify-content:space-evenly;"
+        class="titleContainer">
+        <div style="font-size:45px; color:rgb(255, 255, 255); padding:2%">Pedal-Stool</div>
+      </div>
+      <div
+        style="width: 60%; height:100%; background-color: rgb(0, 46, 93); display:flex; align-items:center; justify-content:center">
+        <button type="button" style="width:57%;" class="btn btn-outline-warning">Create New Post</button>
       </div>
     </div>
   </div>
-  <div class="divider"></div>
-    <div  class="mainSection">
-      <div class="blogMain">
-        <div class="postManager">
-          {{{ body }}}
-        </div>
+  <div style="height: 1px; background-color:rgb(0, 46, 93)" class="divider"></div>
+  <div class="mainSection">
+    <div style="padding-top:15px" class="blogMain">
+      <div class="postManager">
+        {{{ body }}}
       </div>
     </div>
+  </div>
   <footer>
-      
+
   </footer>
 </body>
 
