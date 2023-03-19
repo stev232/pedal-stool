@@ -1,0 +1,133 @@
+* {
+    font-family:sans-serif, Georgia, Times, 'Times New Roman', serif;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(/js/style/Acme-Regular.ttf);
+ }
+ * {
+    font-family:sans-serif, Georgia, Times, 'Times New Roman', serif;
+}
+
+.headerContainer {
+    background-color: rgb(0, 46, 93);
+    color: rgb(255, 255, 255);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding-bottom: 1px;
+    width: 100%;
+    font-size: 70px;
+}
+
+.dashboardContainer {
+    background-color: rgb(0, 46, 93);
+    color: white;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 34%;
+    font-size: 50px;
+}
+
+.titleContainer {
+    background-color: rgb(0, 46, 93);
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34%;
+    font-size: 50px;
+}
+
+.createpostsContainer {
+    background-color: rgb(0, 46, 93);
+    color: white;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34%;
+    font-size: 50px;
+}
+
+#home {
+    border-color: black;
+    border-width: 2px;
+    color: black;
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+#dashboard {
+    border-color: black;
+    border-width: 2px;
+    color: black;
+    height: 50px;
+    width: 100px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+#login {
+    border-color: black;
+    border-width: 2px;
+    color: black;
+    height: 50px;
+    width: 100px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.textbox {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding-left: 4px;
+}
+
+.divider {
+    color: rb(255, 255, 255);
+    height: 2px;
+    size: 2000px;
+}
+
+.mainSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blogMain {
+    padding-top: 15px;
+    padding-left: 125px;
+    background-size: 2000px;
+    background-image: linear-gradient(rgb(14, 184, 223), rgb(0, 46, 93));
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+    height: 800px;
+    width: 100%;
+}
+
+.commentManager {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+}
+
+.container-md1 {
+    height: 180px;
+    background-color: white;
+    padding: 10px;
+    width: 90%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
