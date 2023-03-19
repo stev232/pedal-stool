@@ -1,11 +1,11 @@
 {{#each blogList as |blog| }}
 <div class="container-md1">
-  <button type="button" style="width: 22%" class="btn btn-info">USER</button>
+  <button type="button" style="width: 22%" class="btn btn-info">{{blog.user.user_name}}</button>
   <a href="/blogPost/{{id}}"> <button type="button" style="width: 25%" class="btn btn-info">{{blog.title}}</button> </a>
-  <button type="button" style="width: 11%" class="btn btn-success">Upvotes: </button>
-  <button type="button" style="border-radius: 50%;" class="btn btn-success">⬆</button>
-  <button type="button" style="width: 11%" class="btn btn-danger">Downvotes: </button>
-  <button type="button" style="border-radius: 50%;" class="btn btn-danger">⬇</button>
+  <a href="/upVote/{{id}}"><button type="button" style="width: 11%" class="btn btn-success">Upvotes: {{blog.up_votes}}</button></a>
+  <a href="/upVote/{{id}}"><button type="button" style="border-radius: 50%;" class="btn btn-success">⬆</button></a>
+  <a href="/downVote/{{id}}"><button type="button" style="width: 11%" class="btn btn-danger">Downvotes: {{blog.down_votes}}</button></a>
+  <a href="/downVote/{{id}}"><button type="button" style="border-radius: 50%;" class="btn btn-danger">⬇</button></a>
   <button type="button" style="width: 20%" class="btn btn-warning">Add Comment</button>
   <p>{{blog.content}}</p>
 </div>
