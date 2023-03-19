@@ -17,4 +17,8 @@ Blog.hasMany(Comments, {
     onDelete: 'CASCADE',
 });
 
+Comments.belongsTo(Blog, {
+    foreignKey: 'blog_post_id',
+});
+
 module.exports = { User, Blog, Comments };
