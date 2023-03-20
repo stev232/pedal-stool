@@ -4,7 +4,12 @@
 
 ## Questions
 
-## Set Up
+## 
+
+## Programs
+
+
+## Server Setup With Docker
 1. Install docker
 2. Run ```npm run db:up```
 3. Run ```npm run mysql```
