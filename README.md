@@ -13,6 +13,10 @@ This project is to demonstrate our abilities in full stack development along wit
 5. Run ```npm run seed```
 6. ```npm start```
 
+## Screenshot
+![Screenshot 2023-03-20 at 7 18 56 PM](https://user-images.githubusercontent.com/117046452/226492544-07017f6a-7756-4688-b38b-477d31e322c4.png)
+
+
 ## Page Layout
 * HomePage
 	* Navigtation
